@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <h1 id="top-title">Ernest Hemingway Bibliography<h1/>
+    <h2 id="year"><a class="link" id="life" href="https://en.wikipedia.org/wiki/Ernest_Hemingway" style="text-decoration: none;">(1899–1961)</a><h2/>
+  </header>
+  <link rel="stylesheet" href="styles.css" />
+  <title id="title">Ernest Hemingway bibliography</title>
+  <main id="main">
+    <figure id="img-div">
+      <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ernest_Hemingway_Writing_at_Campsite_in_Kenya_-_NARA_-_192655.jpg"/>
+      <figcaption id="img-caption"><a style="text-decoration: none;"class="link"target="_blank" id="tribute-link" href="https://en.wikipedia.org/wiki/Ernest_Hemingway_bibliography">Hemingway<a/> writing in Kenya, 1953
+      </figcaption>
+    </figure>
+      <body>
+        <h1 id="tribute-info">Novels and novellas</h1>
+        <ul>
+          <li>The Torrents of Spring 1926</li>
+          <li>The Sun Also Rises 1926</li>
+          <li>A Farewell to Arms 1929</li>
+          <li>To Have and Have Not 1937</li>
+          <li>For Whom the Bell Tolls 1940</li>
+          <li>Across the River and into the Trees 1950</li>
+          <li>The Old Man and the Sea 1952</li>
+          <li>Islands in the Stream 1970 (+)</li>
+          <li>The Garden of Eden 1986 (+)</li>
+          <li>True at First Light 1999 (+)</li>
+			  </ul>
+      </body> 
+
+
+    </main>
+    
+  
+</html>
