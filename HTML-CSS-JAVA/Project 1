@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Vukas'survey</title>
+  <head>
+    <div class="top-part">
+      <h1 id="title">Nikola's movie recommendation form</h1>
+      <p id="description"> Fill out this form for a movie recommendation!</p>  </div>
+  </head>
+  <body>
+    <div class="central-part">
+      <form id="survey-form" action:"mailto:nikola.vukas44@gmail.com">
+        <fieldset>
+          <label id="name-label">Your name: <input type="text" id="name" required placeholder="Please enter your name here..."></label><br/>
+          <label id="email-label">Your email: <input type="email" id="email" required placeholder="Please enter your email here..."></label><br/>
+          <label id="number-label">Your age: <input type="number" id="number" min="18" max="120"  placeholder="18" required></label><br/>
+        </fieldset>
+        <fieldset>
+          <label>Please specify your gender?</label>
+          <select id="dropdown">
+            <option selected="true" disabled="disabled">Select</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <label>Do you have a favorite movie?</label>
+          <label><input type="radio" name="dobar" value="0" required> Yes</label>
+          <label><input type="radio" name="dobar" value="1"> No</label><br class="favorite-movie"/>
+          <label>If yes, what movie is it? <input type="text" placeholder="Please enter name of favorite movie..."></label>
+        </fieldset>
+        <fieldset>
+          <label>Please select movies you have watched.</label><br/>
+          <label>
+            <a href="https://www.imdb.com/title/tt0361748/">Inglourious Basterds
+            </a>
+            <input type="checkbox" value="najjaci"></label>
+          <label>
+            <a href="https://www.imdb.com/title/tt1853728/">Django Unchained
+            </a>
+            <input type="checkbox" value="muci">
+          </label>
+        </fieldset>
+        <fieldset>
+          <label>Tell me more about the movies you have watched? </label><br/>
+          <textarea name="favorite-movies" placeholder="Your favorites, the movie you hated the most, etc.."></textarea>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit">
+      </form>
+    </div>
+  </body>
+</html>
